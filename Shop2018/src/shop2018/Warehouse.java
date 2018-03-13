@@ -19,6 +19,10 @@ products.add (new Product("jogurt", new BigDecimal("0.95")));
 products.add (new Product("śmietana", new BigDecimal("1.5")));
 
 }
+    public Collection<Product> productsAvailable()
+    {
+        return null;  /*sprawdzic które produkty sa dostepne*/
+    }
 public Collection<Product> productSortedByName()
 {
 TreeSet set = new TreeSet();
